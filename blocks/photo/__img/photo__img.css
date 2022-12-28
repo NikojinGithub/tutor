@@ -1,0 +1,7 @@
+.photo__img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  align-self: center;
+  margin-right: 30px;
+}

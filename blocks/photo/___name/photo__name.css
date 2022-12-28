@@ -1,0 +1,4 @@
+.photo__name {
+  display: flex;
+  flex-direction: column;
+}
