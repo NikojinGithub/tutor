@@ -11,3 +11,13 @@
 @import url(../blocks/photo/___name/photo__name.css);
 @import url(../blocks/photo/__title/photo__title.css);
 @import url(../blocks/photo/__subtitle/photo__subtitle.css);
+
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__site/info__site.css);
+@import url(../blocks/info/__role/info__role.css);
+@import url(../blocks/info/__task/info__task.css);
+
+@import url(../blocks/documents/documents.css);
+@import url(../blocks/scan/__image/scan__image.css);
+
+@import url(../blocks/footer/footer.css);

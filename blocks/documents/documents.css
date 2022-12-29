@@ -1,0 +1,9 @@
+.documents {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(2, 150px);
+  margin: 50px auto 30px;
+  justify-content: center;
+  background-color: blanchedalmond;
+  gap: 10px;
+}

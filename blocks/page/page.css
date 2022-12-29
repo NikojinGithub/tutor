@@ -1,5 +1,8 @@
 .page {
   background-color: grey;
+  /* background-image: url(../../vendor/pexels-quang-nguyen-vinh-2132180\ \(1\).jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
   max-width: 100%;
   min-width: 320px;
   display: flex;
