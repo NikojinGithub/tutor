@@ -1,4 +1,8 @@
 .info__role {
   min-height: 100px;
   border: 1px solid blue;
+  border-radius: 20px;
+  width: 90%;
+  align-self: center;
+  font-size: 20px;
 }

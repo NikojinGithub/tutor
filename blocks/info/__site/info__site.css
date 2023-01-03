@@ -1,4 +1,7 @@
 .info__site {
   min-height: 100px;
   border: 1px solid red;
+  border-radius: 20px;
+  width: 90%;
+  font-size: 20px;
 }

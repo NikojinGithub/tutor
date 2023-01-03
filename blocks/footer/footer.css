@@ -1,6 +1,8 @@
 .footer {
   min-height: 100px;
-  width: 95%;
-  border: 1px solid black;
-  background-color: azure;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
 }

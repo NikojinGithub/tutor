@@ -1,0 +1,7 @@
+.popup__list {
+  width: 240px;
+  padding: 0;
+  /* flex-direction: column; */
+  list-style-type: none;
+  margin: 0 0 0 10px;
+}

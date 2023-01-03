@@ -1,9 +1,9 @@
 .header {
-  border: 1px solid red;
-  margin-top: 10px;
+  /* border: 1px solid red; */
+  /* margin-top: 10px; */
   min-height: 50px;
-  width: 95%;
-  background-color: azure;
+  width: 100%;
+  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

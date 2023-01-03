@@ -8,32 +8,45 @@
   </head>
   <body class="page">
     <header class="header">
-      <h1>Название сайта</h1>
+      <h1 class="header__title">Название сайта</h1>
       <div class="header__contacts">
+        <img class="header__mail-img" src="./images/email-envelope-inbox-mail-message-send-svgrepo-com (1).svg" alt="mail">
         <p class="email">text@email.com</p>
+        <img class="header__telegram-img" src="./images/Телеграм.svg" alt="telegram">
         <p class="mobile">0 000 000 00 00</p>
       </div>
-      
+ 
     </header>
 
     <main class="main">
       <section class="photo">
-        <img class="photo__img" src="./images/IMG_20220726_104052 (1).jpg">
+        <img class="photo__img" src="./images/IMG_20220726_104052 (1).jpg" alt="photo">
         <div class="photo__name">
-        <h2 class="photo__title">Фамилия</h2>
-        <h2 class="photo__subtitle">Имя</h2>
+        <!-- <h2 class="photo__title">Фамилия</h2>
+        <h2 class="photo__subtitle">Имя</h2> -->
         </div>
       </section>
 
       <section class="info">
         <div class="info__site">
-          <p>Информация о сайте</p>
+          <p>Сейчас тьютор часто ассоциируется с тем, кто помогает учиться детям с особенностями в развитии. 
+            Но на самом деле тьютор — это наставник любого учащегося на его сложном образовательном пути. 
+            И это ни в коем случае не замена учителя: это особая роль на стыке психологии и педагогики.
+            Самоопределение, индивидуальная образовательная траектория, наставничество, создание индивидуального 
+            образовательного пространства — это все про тьюторинг. Задача тьютора — помочь ребенку оценить свои 
+            способности и интересы и на основании этого помочь ему составить индивидуальную программу развития.
+          </p>
         </div>
         <div class="info__role">
-          <p>Роль тьютора</p>
+          <p>Основная роль тьютора помочь ребёнку определиться с вектором развития на ближайшее будущее.</p>
         </div>
         <div class="info__task">
-          <p>Задачи</p>
+          <p>Задача тьютора: создавать события, которые меняют образ мыслей и представление о будущем. 
+            Это одна из форм антропопрактики — работа в пространстве субъективной реальности человека.  
+            Эпигенетические исследования показывают, что независимо от унаследованных задатков, всегда 
+            есть место потенциалу неизвестности и развитию. Взаимодействие в новой среде, с новыми людьми и 
+            новыми способами способно изменить будущее. В обязанности тьютора в школе входит открыть ребёнку 
+            возможности для такого взаимодействия.</p>
         </div>
       </section>
 
@@ -41,8 +54,31 @@
       </section>
     </main>
 
-    <footer class="footer">footer</footer>
-    
+    <footer class="footer">
+      <p class="footer__info">Тут информация</p>
+      <p class="footer__c">© 2023</p>
+    </footer>
+
+    <div class="popup__bg">
+      <div class="popup popup__info">
+        <img class="popup__photo" alt="info">
+        <ul class="popup__list">
+          <li class="popup__text">Фамилия:</li>
+          <li class="popup__text">Имя:</li>
+          <li class="popup__text">Отчество:</li>
+          <li class="popup__text">Образование: Высшее</li>
+          <li class="popup__text">Стаж работы:</li>
+          <li class="popup__text"> Информация:</li>
+        </ul>
+        <button class="popup__close"></button>
+      </div>
+    </div>
+    <div class="popup__bg popup__bg_doc">
+      <div class="popup popup__scans">
+        <img class="popup__img" alt="info">
+        <button class="popup__close popup__close_type_scan"></button>
+      </div>
+    </div>
     <template id="scan">
       <div class="scan">
         <img class="scan__image" alt="">

@@ -1,5 +1,11 @@
 .header__contacts {
-  width: 200px;
+  min-width: 100px;
   min-height: 50px;
   border: 1px solid black;
+  display: grid;
+  grid-template-columns: 30px 150px;
+  grid-template-rows: repeat(2, 30px);
+  align-items: center;
+  justify-items: center;
+  color: white;
 }
